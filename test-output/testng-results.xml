@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="269725" started-at="2023-08-19T19:47:01 IST" finished-at="2023-08-19T19:51:30 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="269725" started-at="2023-08-19T19:47:01 IST" finished-at="2023-08-19T19:51:30 IST">
+      <class name="TestCases.TC_03_BookAppointment">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:TestCases.TC_03_BookAppointment@4f18837a]" name="launchBrowser" is-config="true" duration-ms="13284" started-at="2023-08-19T19:49:11 IST" finished-at="2023-08-19T19:49:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testBookAppointment()[pri:0, instance:TestCases.TC_03_BookAppointment@4f18837a]" name="testBookAppointment" duration-ms="20792" started-at="2023-08-19T19:49:25 IST" finished-at="2023-08-19T19:49:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookAppointment -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestCases.TC_03_BookAppointment@4f18837a]" name="closeBrowser" is-config="true" duration-ms="3132" started-at="2023-08-19T19:49:46 IST" finished-at="2023-08-19T19:49:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCases.TC_03_BookAppointment -->
+      <class name="TestCases.TC_04_CheckHistory">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:TestCases.TC_04_CheckHistory@359f7cdf]" name="launchBrowser" is-config="true" duration-ms="35061" started-at="2023-08-19T19:49:49 IST" finished-at="2023-08-19T19:50:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testHistoryPage()[pri:0, instance:TestCases.TC_04_CheckHistory@359f7cdf]" name="testHistoryPage" duration-ms="23711" started-at="2023-08-19T19:50:24 IST" finished-at="2023-08-19T19:50:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHistoryPage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestCases.TC_04_CheckHistory@359f7cdf]" name="closeBrowser" is-config="true" duration-ms="2021" started-at="2023-08-19T19:50:47 IST" finished-at="2023-08-19T19:50:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCases.TC_04_CheckHistory -->
+      <class name="TestCases.TC_02_InvalidLogin">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:TestCases.TC_02_InvalidLogin@6356695f]" name="launchBrowser" is-config="true" duration-ms="15489" started-at="2023-08-19T19:47:57 IST" finished-at="2023-08-19T19:48:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testInvalidUsername()[pri:1, instance:TestCases.TC_02_InvalidLogin@6356695f]" name="testInvalidUsername" duration-ms="10541" started-at="2023-08-19T19:48:12 IST" finished-at="2023-08-19T19:48:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidUsername -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestCases.TC_02_InvalidLogin@6356695f]" name="closeBrowser" is-config="true" duration-ms="1701" started-at="2023-08-19T19:48:23 IST" finished-at="2023-08-19T19:48:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:TestCases.TC_02_InvalidLogin@6356695f]" name="launchBrowser" is-config="true" duration-ms="11855" started-at="2023-08-19T19:48:24 IST" finished-at="2023-08-19T19:48:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testInvalidPassword()[pri:2, instance:TestCases.TC_02_InvalidLogin@6356695f]" name="testInvalidPassword" duration-ms="9677" started-at="2023-08-19T19:48:36 IST" finished-at="2023-08-19T19:48:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidPassword -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestCases.TC_02_InvalidLogin@6356695f]" name="closeBrowser" is-config="true" duration-ms="1410" started-at="2023-08-19T19:48:46 IST" finished-at="2023-08-19T19:48:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:TestCases.TC_02_InvalidLogin@6356695f]" name="launchBrowser" is-config="true" duration-ms="12982" started-at="2023-08-19T19:48:47 IST" finished-at="2023-08-19T19:49:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testInvalidUsernamePassword()[pri:3, instance:TestCases.TC_02_InvalidLogin@6356695f]" name="testInvalidUsernamePassword" duration-ms="9917" started-at="2023-08-19T19:49:00 IST" finished-at="2023-08-19T19:49:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidUsernamePassword -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestCases.TC_02_InvalidLogin@6356695f]" name="closeBrowser" is-config="true" duration-ms="1222" started-at="2023-08-19T19:49:10 IST" finished-at="2023-08-19T19:49:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCases.TC_02_InvalidLogin -->
+      <class name="TestCases.TC_05_SuccessfulLogout">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:TestCases.TC_05_SuccessfulLogout@1fa268de]" name="launchBrowser" is-config="true" duration-ms="15622" started-at="2023-08-19T19:50:49 IST" finished-at="2023-08-19T19:51:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testSuccessfulLogout()[pri:0, instance:TestCases.TC_05_SuccessfulLogout@1fa268de]" name="testSuccessfulLogout" duration-ms="23101" started-at="2023-08-19T19:51:05 IST" finished-at="2023-08-19T19:51:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestCases.TC_05_SuccessfulLogout@1fa268de]" name="closeBrowser" is-config="true" duration-ms="2027" started-at="2023-08-19T19:51:28 IST" finished-at="2023-08-19T19:51:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCases.TC_05_SuccessfulLogout -->
+      <class name="TestCases.TC_01_ValidLogin">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:TestCases.TC_01_ValidLogin@72057ecf]" name="launchBrowser" is-config="true" duration-ms="32895" started-at="2023-08-19T19:47:01 IST" finished-at="2023-08-19T19:47:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testValidLogin()[pri:0, instance:TestCases.TC_01_ValidLogin@72057ecf]" name="testValidLogin" duration-ms="21063" started-at="2023-08-19T19:47:34 IST" finished-at="2023-08-19T19:47:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestCases.TC_01_ValidLogin@72057ecf]" name="closeBrowser" is-config="true" duration-ms="1992" started-at="2023-08-19T19:47:55 IST" finished-at="2023-08-19T19:47:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCases.TC_01_ValidLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
